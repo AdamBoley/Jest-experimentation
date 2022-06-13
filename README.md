@@ -1,6 +1,6 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome USER_NAME,
+Welcome AdamBoley,
 
 This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
@@ -106,3 +106,23 @@ Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` f
 ---
 
 Happy coding!
+
+
+
+Commands to set up Jest:
+
+First, set up Node via the Node Package Managar, NPM:
+`npm init`
+No answers to any questions - press Enter to accept defaults
+EXCEPT for the test command question - enter `jest`
+
+Install the Jest package:
+`npm install --save-dev jest`
+
+`--save-dev` specifies that Jest will be used in a development environment, which means that it will be added to devDependencies in the package.json file
+
+To run Jest:
+`npm test` (test is our command to initiate testing)
+
+Run this command without any tests, then Jest will run and exit with code 1 - this is fine, and indicates that Jest is installed and working as expected
+

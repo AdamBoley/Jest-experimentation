@@ -1,0 +1,22 @@
+{
+  "name": "jest-experimentation",
+  "version": "1.0.0",
+  "description": "![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdamBoley/Jest-experimentation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdamBoley/Jest-experimentation/issues"
+  },
+  "homepage": "https://github.com/AdamBoley/Jest-experimentation#readme",
+  "devDependencies": {
+    "jest": "^28.1.1"
+  }
+}
