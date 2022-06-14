@@ -126,3 +126,9 @@ To run Jest:
 
 Run this command without any tests, then Jest will run and exit with code 1 - this is fine, and indicates that Jest is installed and working as expected
 
+Jest v28 ships without jsdom, which previously allowed Jest to simulate a virtual DOM to test DOM manipulation functions
+Install jsdom with:
+`npm install --save-dev jest-environment-jsdom`
+And add:
+`"testEnvironment": "jsdom"`
+to the package.json, with a comma after the end of the last object
