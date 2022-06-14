@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/AdamBoley/Jest-experimentation#readme",
   "devDependencies": {
-    "jest": "^28.1.1"
-  }
+    "jest": "^28.1.1",
+    "jest-environment-jsdom": "^28.1.1"
+  },
+  "testEnvironment": "jsdom"
 }
